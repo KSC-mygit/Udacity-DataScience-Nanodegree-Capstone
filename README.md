@@ -15,7 +15,8 @@ This Capstone project is completed as part of the curriculum for the Udacity Dat
  * math
 
 
-
+## Further Reference
+For more information on my analysis please read the accompanying blogpost on Medium which can be found at the following link: 
 
 ## Acknowledgements
 Special thanks to Yahoo Finance for the free API that allows for easy download of the stock price data used in this analysis
