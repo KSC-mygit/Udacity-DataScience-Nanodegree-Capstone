@@ -1,7 +1,7 @@
 # Udacity_DataScience_Nanodegree_Capstone
 Capstone project of Udacity Data Scientist Nanodegree
 
-This Capstone project is completed as part of the curriculum for the Udacity Data Scientist Nanodegree Program. In this project I create a stock price predictor that generates a stock price for given stock or list of stocks as of a given date predicted over a specified forecast interval.
+This Capstone project is completed as part of the curriculum for the Udacity Data Scientist Nanodegree Program. In this project I create a stock price predictor that generates a stock price for a given stock or list of stocks as of a given date predicted over a specified forecast interval.
 
 ## Libraries used
  * yfinance
