@@ -43,8 +43,7 @@ The following steps will be followed:
 7. Generate a prediction and compute the error and absolute error relative to the actual observed price and display the results.
 
 ## Further Reference
-For more information on my analysis please read the accompanying blogpost on Medium which can be found at the following link: https://medium.com/p/af90a9ac4cb0/edit
-
+For more information on my analysis please read the accompanying blogpost on Medium which can be found at the following link: https://medium.com/@kennedychinyam2/building-a-stock-price-predictor-af90a9ac4cb0
 ## Acknowledgements
 Special thanks to Yahoo Finance for the free API that allows for easy download of the stock price data used in this analysis
 
