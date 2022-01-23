@@ -19,7 +19,7 @@ In this analysis I used the yfinace which provides an API to download stock pric
 Run ```! pip install --upgrade pip``` before running ```! pip install yfinance``` if ```yfinance``` is not installed in your environment.
 
 ## Getting Started
-1. Run all the in the code in the accompanying jupyter notebook until just before the **USER INTERFACE** section. This initializes all the classes, functions and objects required to proceed further.
+1. Run all the code cells in the accompanying jupyter notebook until just before the **USER INTERFACE** section. This initializes all the classes, functions and objects required to proceed further.
 2. Follow the steps in the **USER INTERFACE** section of the jupyter notebook to supply the inputs needed to generate your prediction. The following will be requested for input:
     * list of tickers (a list of tickers from the S&P 500 is provided to pick examples from, if you do not already ones in mind)
     * the start date and end date of the training period of your choice based on available data from Yahoo Finance
