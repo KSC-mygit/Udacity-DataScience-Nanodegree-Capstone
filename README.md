@@ -19,27 +19,28 @@ In this analysis I used the yfinace which provides an API to download stock pric
 Run ```! pip install --upgrade pip``` before running ```! pip install yfinance``` if ```yfinance``` is not installed in your environment.
 
 ## Getting Started
-1. Run all the in the code in the accompaning jupyter notebook until just before the **USER INTERFACE** section. This initializes all the classes, functions and objects required to proceed further.
+1. Run all the in the code in the accompanying jupyter notebook until just before the **USER INTERFACE** section. This initializes all the classes, functions and objects required to proceed further.
 2. Follow the steps in the **USER INTERFACE** section of the jupyter notebook to supply the inputs needed to generate your prediction. The following will be requested for input:
     * list of tickers (a list of tickers from the S&P 500 is provided to pick examples from, if you do not already ones in mind)
     * the start date and end date of the training period of your choice based on available data from Yahoo Finance
-    * the number of days for the forcast interval
+    * the number of days for the forecast interval
     * and finally, the specific date you wish you generate a prediction for
 
-## Four different regression models were used as follows:
+## Five different regression models were used as follows:
     * Linear Regression
     * Kernel Ridge Regression
     * Stochastic Gradient Descent Linear Regression
-    * Linear Support Vector Regression    
+    * Linear Support Vector Regression
+    * K-nearest neighbor Regression
     
 ## Prediction Process:
 The following steps will be followed:
 1. User inputs one or more ticker symbols
-2. Dowload the available historical stock price data from Yahoo Finance
+2. Download the available historical stock price data from Yahoo Finance
 3. User specifies the training period
 4. User specifies the forecast interval
 5. Train the 4 models indicate above and test them to determine the best one for each ticker - the one with the least root mean squared error (RMSE)
-6. User specifies the date the prediction should be generated for from a range of dates in the period that is subsequent to the training period specified in step. 3 above
+6. User specifies the date the prediction should be generated for from a range of dates in the period that is after the training period specified in step. 3 above
 7. Generate a prediction and compute the error and absolute error relative to the actual observed price and display the results.
 
 ## Further Reference
@@ -48,4 +49,4 @@ For more information on my analysis please read the accompanying blogpost on Med
 Special thanks to Yahoo Finance for the free API that allows for easy download of the stock price data used in this analysis
 
 ## Contribution
-Contibutions to this project are welcome!
+Contributions to this project are welcome!
